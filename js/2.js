@@ -22,15 +22,6 @@ function DrawСircle(x, y, r, color){
     ctx.closePath();
 }
 
-function DrawLine(start, end){
-    ctx.beginPath();
-    ctx.moveTo(start.x, start.y);
-    ctx.strokeStyle  = '#636363';
-    
-    ctx.lineTo(end.x, end.y);
-    ctx.stroke();
-}
-
 function Draw(time){
         var posX = centerPlaceX + Math.sin(time) * 150 * Math.abs(Math.sin(time));
         var posY = centerPlaceY + Math.cos(time) * 150 * Math.abs(Math.sin(time));
