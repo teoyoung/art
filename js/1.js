@@ -40,8 +40,8 @@ function Draw(time){
 
         DrawLine({x:centerPlaceX, y: centerPlaceX}, {x:posX, y: posY});
         DrawСircle(posX, posY, circle.r, circle.color);
-        DrawСircle(centerPlaceX, centerPlaceX, 2.5, '#ededed');
     }
+    DrawСircle(centerPlaceX, centerPlaceX, 2.5, '#ededed');
 }
 
 
